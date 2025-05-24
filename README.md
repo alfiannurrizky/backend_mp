@@ -10,11 +10,11 @@ langkah-langkah untuk menjalankan project ini
 
 Route yang tersedia
 
-| Method | Endpoint                                         | Role      | Deskripsi                                         |
-| ------ | ------------------------------------------------ | --------- | ------------------------------------------------- |
-| POST   | `http://localhost:5000/api/auth/login`           | Semua     | Login pengguna (mahasiswa atau dosen)             |
-| POST   | `http://localhost:5000/api/auth/register`        | Mahasiswa | Registrasi akun baru mahasiswa                    |
-| POST   | `http://localhost:5000/api/auth/submissions`     | Mahasiswa | Ajukan judul skripsi                              |
-| GET    | `http://localhost:5000/api/auth/submissions/my`  | Mahasiswa | Lihat daftar dan status pengajuan skripsi sendiri |
-| GET    | `http://localhost:5000/api/auth/submissions`     | Dosen     | Lihat semua pengajuan mahasiswa                   |
-| PATCH  | `http://localhost:5000/api/auth/submissions/:id` | Dosen     | Update status pengajuan (ACC / Revisi / Pending)  |
+| Method | Endpoint                                    | Role      | Deskripsi                                         |
+| ------ | ------------------------------------------- | --------- | ------------------------------------------------- |
+| POST   | `http://localhost:5000/api/auth/login`      | Semua     | Login pengguna (mahasiswa atau dosen)             |
+| POST   | `http://localhost:5000/api/auth/register`   | Mahasiswa | Registrasi akun baru mahasiswa                    |
+| POST   | `http://localhost:5000/api/submissions`     | Mahasiswa | Ajukan judul skripsi                              |
+| GET    | `http://localhost:5000/api/submissions/my`  | Mahasiswa | Lihat daftar dan status pengajuan skripsi sendiri |
+| GET    | `http://localhost:5000/api/submissions`     | Dosen     | Lihat semua pengajuan mahasiswa                   |
+| PATCH  | `http://localhost:5000/api/submissions/:id` | Dosen     | Update status pengajuan (ACC / Revisi / Pending)  |
