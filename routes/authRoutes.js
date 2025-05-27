@@ -2,17 +2,20 @@ const express = require("express");
 const router = express.Router();
 const authController = require("../controllers/authController");
 const {
-  registerValidationRules,
+  changePasswordValidationRules,
   loginValidationRules,
   validate,
 } = require("../validators/authValidator");
 
+// Ganti password
 router.post(
-  "/register",
-  registerValidationRules(),
+  "/changepassword",  // diperbaiki dari 'register' menjadi 'changepassword'
+  changePasswordValidationRules(),
   validate,
-  authController.register
+  authController.changePassword
 );
+
+// Login pakai nim/nip
 router.post("/login", loginValidationRules(), validate, authController.login);
 
 module.exports = router;

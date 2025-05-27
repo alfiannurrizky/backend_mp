@@ -2,26 +2,35 @@ const User = require("../models/User");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
-exports.register = async (req, res) => {
+exports.changePassword = async (req, res) => {
   try {
-    // Check if the email already exists
-    const existingUser = await User.findOne({ email: req.body.email });
-    if (existingUser) {
-      return res.status(400).json({ error: "Email already exists" });
+    const { nim_nip, oldPassword, newPassword, confirmPassword } = req.body;
+
+    // Cari user berdasarkan nim_nip
+    const user = await User.findOne({ nim_nip });
+    if (!user) {
+      return res.status(404).json({ error: "User not found" });
     }
 
-    // Hash the password
-    const hashedPassword = await bcrypt.hash(req.body.password, 10);
+    // Cek apakah password lama cocok
+    const isMatch = await bcrypt.compare(oldPassword, user.password);
+    if (!isMatch) {
+      return res.status(401).json({ error: "Old password is incorrect" });
+    }
 
-    // Create a new user
-    const newUser = new User({
-      username: req.body.username,
-      email: req.body.email,
-      password: hashedPassword,
-    });
+    // Cek apakah password baru dan konfirmasi cocok
+    if (newPassword !== confirmPassword) {
+      return res.status(400).json({ error: "New passwords do not match" });
+    }
 
-    await newUser.save();
-    res.status(201).json({ message: "User registered successfully" });
+    // Hash password baru
+    const hashedNewPassword = await bcrypt.hash(newPassword, 10);
+
+    // Update password user
+    user.password = hashedNewPassword;
+    await user.save();
+
+    res.status(200).json({ message: "Password changed successfully" });
   } catch (error) {
     res.status(500).json({ error: "Internal server error" });
   }
@@ -29,17 +38,16 @@ exports.register = async (req, res) => {
 
 exports.login = async (req, res) => {
   try {
-    // Check if the email exists
-    const user = await User.findOne({ email: req.body.email });
+    const { nim_nip, password } = req.body;
+
+    // Cari user pakai nim_nip tanpa cek role
+    const user = await User.findOne({ nim_nip });
     if (!user) {
       return res.status(401).json({ error: "Invalid credentials" });
     }
 
-    // Compare passwords
-    const passwordMatch = await bcrypt.compare(
-      req.body.password,
-      user.password
-    );
+    // Bandingkan password
+    const passwordMatch = await bcrypt.compare(password, user.password);
     if (!passwordMatch) {
       return res.status(401).json({ error: "Invalid credentials" });
     }

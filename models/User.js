@@ -6,6 +6,8 @@ const userSchema = new mongoose.Schema(
     email: { type: String, unique: true },
     password: String,
     role: { type: String, enum: ["mahasiswa", "dosen"], default: "mahasiswa" },
+    nim_nip: { type: String, required: true, unique: true }, // satu field gabungan
+    programStudiId: { type: mongoose.Schema.Types.ObjectId, ref: "ProgramStudi" },
   },
   { timestamps: true }
 );

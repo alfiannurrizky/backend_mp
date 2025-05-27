@@ -1,25 +1,28 @@
 const { body, validationResult } = require("express-validator");
 
-// Validasi register (sudah ada)
-const registerValidationRules = () => {
+// Validasi ganti password
+const changePasswordValidationRules = () => {
   return [
-    body("name").notEmpty().withMessage("Name wajib diisi"),
-    body("email").isEmail().withMessage("Email tidak valid"),
-    body("password")
+    body("nim_nip").notEmpty().withMessage("NIM/NIP wajib diisi"),
+    body("oldPassword").notEmpty().withMessage("Password lama wajib diisi"),
+    body("newPassword")
       .isLength({ min: 6 })
-      .withMessage("Password minimal 6 karakter"),
+      .withMessage("Password baru minimal 6 karakter"),
+    body("confirmPassword")
+      .custom((value, { req }) => value === req.body.newPassword)
+      .withMessage("Konfirmasi password tidak cocok"),
   ];
 };
 
-// Validasi login
+// Validasi login (pakai nim_nip)
 const loginValidationRules = () => {
   return [
-    body("email").isEmail().withMessage("Email tidak valid"),
-    body("password").notEmpty().withMessage("Password wajib diisi bro!"),
+    body("nim_nip").notEmpty().withMessage("NIM/NIP wajib diisi"),
+    body("password").notEmpty().withMessage("Password wajib diisi"),
   ];
 };
 
-// Middleware cek hasil validasi (dipakai di register & login)
+// Middleware cek hasil validasi (dipakai di changePassword & login)
 const validate = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
@@ -29,7 +32,7 @@ const validate = (req, res, next) => {
 };
 
 module.exports = {
-  registerValidationRules,
+  changePasswordValidationRules,
   loginValidationRules,
   validate,
 };
