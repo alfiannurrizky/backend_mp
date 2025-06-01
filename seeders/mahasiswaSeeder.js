@@ -1,4 +1,4 @@
-require("dotenv").config();
+require("dotenv").config({ path: "../.env" });
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
 const User = require("../models/User");
@@ -36,7 +36,9 @@ async function seedData() {
 
   const savedPrograms = [];
   for (const prog of programStudiList) {
-    let existingProg = await ProgramStudi.findOne({ fakultas: prog.fakultas });
+    let existingProg = await ProgramStudi.findOne({
+      fakultas: prog.fakultas,
+    });
     if (existingProg) {
       console.log(`⚠️ Program studi ${prog.fakultas} sudah ada, dilewati.`);
       savedPrograms.push(existingProg);
@@ -49,18 +51,42 @@ async function seedData() {
   }
 
   const mahasiswaList = [
-    { name: "Muhamad Azis" },
-    { name: "Siti Nurhaliza" },
-    { name: "Budi Santoso" },
-    { name: "Dewi Anggraini" },
-    { name: "Rudi Hartono" },
-    { name: "Lina Marlina" },
+    {
+      name: "Muhamad Azis",
+      tanggalLahir: "2001-04-15",
+      noTelepon: "081234567890",
+    },
+    {
+      name: "Siti Nurhaliza",
+      tanggalLahir: "2002-05-20",
+      noTelepon: "081234567891",
+    },
+    {
+      name: "Budi Santoso",
+      tanggalLahir: "2000-08-30",
+      noTelepon: "081234567892",
+    },
+    {
+      name: "Dewi Anggraini",
+      tanggalLahir: "2001-12-01",
+      noTelepon: "081234567893",
+    },
+    {
+      name: "Rudi Hartono",
+      tanggalLahir: "1999-07-25",
+      noTelepon: "081234567894",
+    },
+    {
+      name: "Lina Marlina",
+      tanggalLahir: "2003-03-10",
+      noTelepon: "081234567895",
+    },
   ];
 
   function generateNIM() {
     const prefix = "2025";
-      const randomDigits = Math.floor(10000000 + Math.random() * 90000000); // 8 digit random
-      return prefix + randomDigits.toString();
+    const randomDigits = Math.floor(10000000 + Math.random() * 90000000); // 8 digit random
+    return prefix + randomDigits.toString();
   }
 
   for (let i = 0; i < mahasiswaList.length; i++) {
@@ -77,14 +103,27 @@ async function seedData() {
 
     const newMahasiswa = new User({
       name: mahasiswaList[i].name,
-      email: nim_nip,
-      nim_nip: nim_nip,  // gunakan field baru
+      nim_nip: nim_nip,
       password: hashedPassword,
       role: "mahasiswa",
       programStudiId: programStudi._id,
+      tanggalLahir: mahasiswaList[i].tanggalLahir,
+      noTelepon: mahasiswaList[i].noTelepon,
     });
 
     await newMahasiswa.save();
-    console.log(`✅ Akun ${nim_nip} berhasil dibuat dengan program studi ${programStudi.fakultas}.`);
+    console.log(
+      `✅ Akun ${nim_nip} berhasil dibuat dengan program studi ${programStudi.fakultas}.`
+    );
   }
 }
+
+seedData()
+  .then(() => {
+    console.log("🎉 Seeder selesai.");
+    process.exit(0);
+  })
+  .catch((err) => {
+    console.error("❌ Terjadi kesalahan saat menjalankan seeder:", err);
+    process.exit(1);
+  });
