@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+const verifyToken = require("../middlewares/verifyToken");
 const authController = require("../controllers/authController");
 const {
   changePasswordValidationRules,
@@ -7,15 +8,14 @@ const {
   validate,
 } = require("../validators/authValidator");
 
-// Ganti password
 router.post(
-  "/changepassword",  // diperbaiki dari 'register' menjadi 'changepassword'
+  "/changepassword",
+  verifyToken,
   changePasswordValidationRules(),
   validate,
   authController.changePassword
 );
 
-// Login pakai nim/nip
 router.post("/login", loginValidationRules(), validate, authController.login);
 
 module.exports = router;

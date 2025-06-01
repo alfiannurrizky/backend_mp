@@ -1,0 +1,110 @@
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:21:45"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:22:59"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:23:40"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:24:59"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:24:59"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:45:37"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:45:37"}
+{"ip":"::ffff:192.168.0.106","level":"error","message":"Unhandled Error: nim_nip is not defined","method":"POST","path":"/api/auth/login","stack":"ReferenceError: nim_nip is not defined\n    at exports.login (/home/alfiannrzky/project/backend_mp/controllers/authController.js:132:48)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-01 12:49:30"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:50:27"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:50:27"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:50:34"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:50:34"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:51:40"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:51:40"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:51:42"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:51:42"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:51:46"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:51:46"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:51:50"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:51:50"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:52:21"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:52:21"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:54:49"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:54:49"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:54:52"}
+{"level":"info","message":"Berhasil mengambil 7 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=1.","timestamp":"2025-06-01 12:54:52"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:55:03"}
+{"level":"info","message":"Berhasil mengambil 7 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=1.","timestamp":"2025-06-01 12:55:03"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:55:12"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:55:12"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:55:23"}
+{"level":"info","message":"Berhasil mengambil 7 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=1.","timestamp":"2025-06-01 12:55:23"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:55:24"}
+{"level":"info","message":"Berhasil mengambil 7 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=1.","timestamp":"2025-06-01 12:55:24"}
+{"level":"info","message":"Upaya pembuatan pengajuan baru oleh pengguna ID: 6836b4519dd7e44809068aca dengan judul: \"membuat aplikasi berbasis android\"","timestamp":"2025-06-01 12:55:45"}
+{"level":"info","message":"Pengajuan ID 683beb61c7a0ccd1b67aacd3 berhasil dibuat oleh pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:55:45"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:55:49"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=2.","timestamp":"2025-06-01 12:55:49"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:56:22"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:56:22"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:56:37"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b4519dd7e44809068aca: Password lama salah.","timestamp":"2025-06-01 12:56:37"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:56:57"}
+{"level":"info","message":"Hashing dan menyimpan password baru untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:56:57"}
+{"level":"info","message":"Password berhasil diubah untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:56:57"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:57:25"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:57:25"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:57:29"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:57:29"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 202595908356 - nim_nip atau password salah.","timestamp":"2025-06-01 12:57:30"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:57:36"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:57:36"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:57:39"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:57:39"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:57:41"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:57:42"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 12:57:42"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 202595908356 - nim_nip atau password salah.","timestamp":"2025-06-01 12:57:42"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 12:57:46"}
+{"level":"info","message":"User Lina Marlina (202595908356) berhasil login sebagai mahasiswa.","timestamp":"2025-06-01 12:57:46"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:57:46"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=2.","timestamp":"2025-06-01 12:57:46"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:57:56"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:57:56"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:57:59"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=3, Revisi=3, Pending=2.","timestamp":"2025-06-01 12:57:59"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 12:58:01"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 12:58:01"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 12:58:11"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 12:58:11"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 12:58:14"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 12:58:14"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 12:58:18"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan.","timestamp":"2025-06-01 12:58:18"}
+{"level":"info","message":"Status pengajuan ID 683beb61c7a0ccd1b67aacd3 berhasil diupdate menjadi \"acc\"","timestamp":"2025-06-01 12:58:25"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 12:58:25"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan.","timestamp":"2025-06-01 12:58:25"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 12:58:32"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:58:32"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 12:58:49"}
+{"level":"info","message":"Hashing dan menyimpan password baru untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:58:49"}
+{"level":"info","message":"Password berhasil diubah untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:58:49"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 12:58:54"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:58:54"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 12:59:00"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 12:59:00"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 12:59:03"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 12:59:03"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 12:59:06"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan.","timestamp":"2025-06-01 12:59:06"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 12:59:07"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:59:07"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 12:59:08"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan.","timestamp":"2025-06-01 12:59:08"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 12:59:09"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 12:59:09"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 12:59:39"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 12:59:39"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 13:00:03"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 202595908356 - nim_nip atau password salah.","timestamp":"2025-06-01 13:00:03"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 13:00:06"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 202595908356 - nim_nip atau password salah.","timestamp":"2025-06-01 13:00:06"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 13:00:09"}
+{"level":"info","message":"User Lina Marlina (202595908356) berhasil login sebagai mahasiswa.","timestamp":"2025-06-01 13:00:09"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:00:09"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=4, Revisi=3, Pending=1.","timestamp":"2025-06-01 13:00:09"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:00:12"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:00:12"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:00:13"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=4, Revisi=3, Pending=1.","timestamp":"2025-06-01 13:00:13"}

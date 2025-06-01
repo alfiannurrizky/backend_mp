@@ -3,7 +3,6 @@ const { body, validationResult } = require("express-validator");
 // Validasi ganti password
 const changePasswordValidationRules = () => {
   return [
-    body("nim_nip").notEmpty().withMessage("NIM/NIP wajib diisi"),
     body("oldPassword").notEmpty().withMessage("Password lama wajib diisi"),
     body("newPassword")
       .isLength({ min: 6 })
