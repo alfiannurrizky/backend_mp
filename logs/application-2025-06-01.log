@@ -132,3 +132,189 @@
 {"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:52"}
 {"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:56"}
 {"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:56"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:06:29"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:06:29"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:11:13"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:11:13"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:11:24"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 13:11:24"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:11:24"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:11:24"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:12:21"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:12:21"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:12:21"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:12:21"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:12:35"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:12:35"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:12:35"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:12:35"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:14"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:14"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:14"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:14"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:25"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:25"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:26"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:26"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:13:27"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:13:27"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:27"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:27"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:13:41"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:13:41"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:42"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:42"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:13:43"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:13:43"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:15:13"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:15:13"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:15:14"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:15:14"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:15:15"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:15:15"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:15:15"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:15:15"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:15:25"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b46e8af832a773685699: Password lama salah.","timestamp":"2025-06-01 13:15:25"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:15:31"}
+{"level":"info","message":"Hashing dan menyimpan password baru untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:15:31"}
+{"level":"info","message":"Password berhasil diubah untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:15:31"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:15:47"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 13:15:47"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:15:47"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:15:47"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:15:49"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:15:49"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:15:58"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 13:15:58"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:16:00"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 13:16:00"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:16:00"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:16:00"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:16:05"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:16:05"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:16:09"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:16:09"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:13"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:18:13"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:18:15"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:18:15"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:16"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:18:16"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:17"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:18:17"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:18"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:18:18"}
+{"level":"info","message":"Status pengajuan ID 6836cda146085ee7d50aa57e berhasil diupdate menjadi \"revisi\"","timestamp":"2025-06-01 13:18:21"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:21"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:18:21"}
+{"level":"info","message":"Status pengajuan ID 6836cda146085ee7d50aa57e berhasil diupdate menjadi \"acc\"","timestamp":"2025-06-01 13:18:22"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:22"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=6, Revisi=2.","timestamp":"2025-06-01 13:18:23"}
+{"level":"info","message":"Status pengajuan ID 683778d55bf0f092f9c19959 berhasil diupdate menjadi \"acc\"","timestamp":"2025-06-01 13:18:26"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:26"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=7, Revisi=1.","timestamp":"2025-06-01 13:18:26"}
+{"level":"info","message":"Status pengajuan ID 683b482491660a47f6d28f15 berhasil diupdate menjadi \"acc\"","timestamp":"2025-06-01 13:18:29"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:29"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=8, Revisi=0.","timestamp":"2025-06-01 13:18:29"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:31"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=8, Revisi=0.","timestamp":"2025-06-01 13:18:31"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:35"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=8, Revisi=0.","timestamp":"2025-06-01 13:18:35"}
+{"level":"info","message":"Status pengajuan ID 68376c945bf0f092f9c1993f berhasil diupdate menjadi \"acc\"","timestamp":"2025-06-01 13:18:39"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:39"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=9, Revisi=0.","timestamp":"2025-06-01 13:18:39"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:40"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=9, Revisi=0.","timestamp":"2025-06-01 13:18:40"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:44"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=9, Revisi=0.","timestamp":"2025-06-01 13:18:44"}
+{"level":"info","message":"Status pengajuan ID 6836b9fa5db876d7f2bb86be berhasil diupdate menjadi \"revisi\"","timestamp":"2025-06-01 13:18:46"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:46"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=8, Revisi=1.","timestamp":"2025-06-01 13:18:46"}
+{"level":"info","message":"Status pengajuan ID 6836cda146085ee7d50aa57e berhasil diupdate menjadi \"revisi\"","timestamp":"2025-06-01 13:18:48"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:48"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:18:48"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:49"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:18:49"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:54"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:18:54"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:18:57"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:18:57"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:22:14"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:22:14"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:25:04"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 13:25:04"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:25:07"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 13:25:07"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:26:03"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 198044930588 - nim_nip atau password salah.","timestamp":"2025-06-01 13:26:03"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:26:56"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 13:26:56"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:26:57"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:26:57"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:27:45"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=0, ACC=7, Revisi=2.","timestamp":"2025-06-01 13:27:45"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:28:29"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:28:29"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:29:53"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b46e8af832a773685699: Password lama salah.","timestamp":"2025-06-01 13:29:53"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:30:10"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b46e8af832a773685699: Password lama salah.","timestamp":"2025-06-01 13:30:10"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:30:18"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b46e8af832a773685699: Password lama salah.","timestamp":"2025-06-01 13:30:18"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:31:12"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b46e8af832a773685699: Password lama salah.","timestamp":"2025-06-01 13:31:12"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b46e8af832a773685699","timestamp":"2025-06-01 13:31:19"}
+{"level":"info","message":"Hashing dan menyimpan password baru untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:31:19"}
+{"level":"info","message":"Password berhasil diubah untuk pengguna ID: 6836b46e8af832a773685699.","timestamp":"2025-06-01 13:31:19"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 13:34:00"}
+{"level":"warn","message":"Login gagal untuk nim/nip: 202595908356 - nim_nip atau password salah.","timestamp":"2025-06-01 13:34:01"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 202595908356","timestamp":"2025-06-01 13:34:03"}
+{"level":"info","message":"User Lina Marlina (202595908356) berhasil login sebagai mahasiswa.","timestamp":"2025-06-01 13:34:03"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:34:03"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=0.","timestamp":"2025-06-01 13:34:03"}
+{"level":"info","message":"Upaya pembuatan pengajuan baru oleh pengguna ID: 6836b4519dd7e44809068aca dengan judul: \"integrasi api midtrans untuk menghitung ongkos kirim\"","timestamp":"2025-06-01 13:35:57"}
+{"level":"info","message":"Pengajuan ID 683bf4cdc1f5fd06e96d3160 berhasil dibuat oleh pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:35:57"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:36:15"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:36:15"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:36:31"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:36:31"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:44:09"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b4519dd7e44809068aca: Password lama salah.","timestamp":"2025-06-01 13:44:10"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:45:26"}
+{"level":"warn","message":"Perubahan password gagal untuk pengguna ID 6836b4519dd7e44809068aca: Password lama salah.","timestamp":"2025-06-01 13:45:26"}
+{"level":"info","message":"Upaya perubahan password oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:45:33"}
+{"level":"info","message":"Hashing dan menyimpan password baru untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:45:33"}
+{"level":"info","message":"Password berhasil diubah untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:45:33"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:34"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:34"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:35"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:35"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:36"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:36"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:36"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:36"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:47"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:55:47"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:51"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:51"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:53"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:53"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:55"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:55"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:56"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:55:56"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:55:56"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:55:56"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:01"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:56:01"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:03"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:56:03"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:12"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:56:12"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:12"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:56:12"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:15"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:56:15"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:56:19"}
+{"level":"info","message":"Berhasil mengambil 9 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=6, Revisi=2, Pending=1.","timestamp":"2025-06-01 13:56:19"}
