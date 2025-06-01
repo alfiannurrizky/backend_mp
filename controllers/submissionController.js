@@ -116,9 +116,36 @@ exports.getAllSubmissions = async (req, res) => {
   try {
     const submissions = await Submission.find().populate("user", "name email");
 
-    logger.info(`Berhasil mengambil ${submissions.length} data pengajuan.`);
+    const totalPengajuan = submissions.length;
+    let pengajuanPending = 0;
+    let pengajuanAcc = 0;
+    let pengajuanRevisi = 0;
 
-    res.json({ data: submissions });
+    submissions.forEach((submission) => {
+      if (submission.status === "pending") {
+        pengajuanPending++;
+      } else if (submission.status === "acc") {
+        pengajuanAcc++;
+      } else if (submission.status === "revisi") {
+        pengajuanRevisi++;
+      }
+    });
+
+    logger.info(
+      `Berhasil mengambil ${totalPengajuan} data pengajuan. Statistik: Pending=${pengajuanPending}, ACC=${pengajuanAcc}, Revisi=${pengajuanRevisi}.`
+    );
+
+    res.json({
+      success: true,
+      message: "Data pengajuan berhasil diambil.",
+      data: submissions,
+      stats: {
+        totalPengajuan: totalPengajuan,
+        pengajuanPending: pengajuanPending,
+        pengajuanAcc: pengajuanAcc,
+        pengajuanRevisi: pengajuanRevisi,
+      },
+    });
   } catch (err) {
     logger.error(`Gagal mengambil semua data pengajuan: ${err.message}`, {
       stack: err.stack,

@@ -108,3 +108,27 @@
 {"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:00:12"}
 {"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:00:13"}
 {"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=4, Revisi=3, Pending=1.","timestamp":"2025-06-01 13:00:13"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:02:17"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:02:17"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:02:20"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=4, Revisi=3, Pending=1.","timestamp":"2025-06-01 13:02:20"}
+{"level":"info","message":"Upaya mengambil data profil untuk pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:02:24"}
+{"level":"info","message":"Data profil berhasil diambil untuk pengguna ID: 6836b4519dd7e44809068aca.","timestamp":"2025-06-01 13:02:24"}
+{"level":"info","message":"Upaya pengambilan data pengajuan oleh pengguna ID: 6836b4519dd7e44809068aca","timestamp":"2025-06-01 13:02:27"}
+{"level":"info","message":"Berhasil mengambil 8 pengajuan untuk pengguna ID 6836b4519dd7e44809068aca. Statistik: ACC=4, Revisi=3, Pending=1.","timestamp":"2025-06-01 13:02:27"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:03:58"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:03:58"}
+{"level":"info","message":"Upaya masuk untuk nim/nip: 198044930588","timestamp":"2025-06-01 13:04:59"}
+{"level":"info","message":"User Dosen Pembimbing (198044930588) berhasil login sebagai dosen.","timestamp":"2025-06-01 13:04:59"}
+{"level":"info","message":"Upaya pengambilan semua data pengajuan (untuk dosen).","timestamp":"2025-06-01 13:05:12"}
+{"level":"info","message":"Berhasil mengambil 9 data pengajuan. Statistik: Pending=1, ACC=5, Revisi=3.","timestamp":"2025-06-01 13:05:12"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:46"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:46"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:48"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:48"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:50"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:50"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:52"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:52"}
+{"level":"info","message":"Server berjalan di port 5000","timestamp":"2025-06-01 13:05:56"}
+{"level":"info","message":"Koneksi MongoDB berhasil","timestamp":"2025-06-01 13:05:56"}
